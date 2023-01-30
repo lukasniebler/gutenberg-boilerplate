@@ -1,0 +1,7 @@
+{
+    /* Turn on formatting rules with ESLint instead of Prettier */
+    "extends": [
+        "plugin:@wordpress/eslint-plugin/recommended-with-formatting",
+        "prettier" // Disables ESLint-Rules that may conflict with Prettier
+    ]
+}
